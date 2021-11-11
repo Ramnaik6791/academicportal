@@ -1,0 +1,15 @@
+id,semester,sem_title,course_code,course_title,course_cat,credits,grades,course_no
+1,1,"DIWALI '11","MEL 110"," A",EA,4,B-,1
+2,1,"DIWALI '11","MAL 111",W,MA,4,D,2
+3,1,"DIWALI '11","PHP 100",W,PH,2,A-,3
+4,1,"DIWALI '11","CSN 110",W,DC,2,S,4
+5,1,"DIWALI '11","CSL 102",W,EA,4,B-,5
+6,1,"DIWALI '11",PHL110,W,PH,4,D,6
+7,1,"DIWALI '11","HUN 100",W,HU,2,Z,7
+8,2,"HOLI '12","CSL 201",T,DC,5,D,1
+9,2,"HOLI '12","ELL 101",T,EA,4,D,2
+10,2,"HOLI '12","MEL 120",T,EA,4,B,3
+11,2,"HOLI '12","CYL 110",TT,CY,4,D,4
+12,2,"HOLI '12","HUN 100",T,HU,2,S,5
+13,2,"HOLI '12","CYP 100",T,CY,2,B,6
+14,2,"HOLI '12","MAL 124",T,MA,4,E,7
