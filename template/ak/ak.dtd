@@ -1,0 +1,19 @@
+<!ELEMENT CSITcourses (course)*>
+<!ELEMENT course (course_no|course_title|course_category|slot|remarks|course_credits|course_prereq|course_overlap|course_content)*>
+<!ATTLIST course id CDATA #REQUIRED>
+        
+        <!ELEMENT course_no (#PCDATA)>
+        <!ELEMENT course_title (#PCDATA)>
+        <!ELEMENT course_category (CS1|CS51|CS52|MCS|course_credits)*>
+        <!ELEMENT CS1 (#PCDATA)>
+        <!ELEMENT CS51 (#PCDATA)>
+        <!ELEMENT CS52 (#PCDATA)>
+        <!ELEMENT MCS (#PCDATA)>
+        <!ELEMENT slot (#PCDATA)>
+        <!ELEMENT remarks (#PCDATA)>
+        <!ELEMENT course_credits (#PCDATA)>
+        <!ELEMENT course_prereq (#PCDATA|ir)*>
+        <!ELEMENT course_overlap (#PCDATA|ir)*>
+        <!ELEMENT course_content (#PCDATA)>
+        <!ELEMENT ir (#PCDATA)>
+<!ATTLIST ir refid CDATA #REQUIRED>

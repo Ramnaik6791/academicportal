@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CSITcourses SYSTEM "test.dtd">
+<CSITcourses>
+	<course id="COL100">
+		<dept>Computer Science and Engineering</dept>
+		<course_title>Introduction to Computer Science</course_title>
+		<ltp_dist>3-0-2</ltp_dist>
+		<course_credits>4</course_credits>
+		<ng_units>0</ng_units>
+		<course_no>COL100</course_no>
+		<course_category>
+			<IC>YES</IC>
+			<PLC></PLC>
+			<DC></DC>
+			<DE></DE>
+			<ISC></ISC>
+			<ISE></ISE>
+			<PC></PC>
+			<PE></PE>
+			<OC>NO</OC>
+		</course_category>
+		<course_prereq></course_prereq>
+		<course_overlap>
+			<overlap_same_dep></overlap_same_dep>
+			<overlap_other_dep></overlap_other_dep>
+			<supersedes_existing><ir refid="CSL101">CSL101</ir><ir refid="CSL102">CSL102</ir></supersedes_existing>
+		</course_overlap>
+		<not_allowed>NA</not_allowed>
+		<frequency>EVERY SEM</frequency>
+		<faculty></faculty>
+		<vis_faculty>NO</vis_faculty>
+		<course_objectives>Introduction to algorithmic problem solving. Introduction to design and analysis of correct, efficient and maintain able programs.</course_objectives>
+		<course_contents>Concept of an algorithm; termination and correctness. Algorithms to programs: specification, top-down development and stepwise refinement. Iterative versus recursive style; problem solving using a functional style; correctness issues in programming; efficiency issues in programming; time and space measures. Structured style of imperative programming; programming in an imperative language using advanced features: procedures, functions. Data types, representational invariants. Encapsulation, abstractions, interaction, modularity. Identifying and exploiting inherent concurrency.  </course_contents>
+		<lecture_outline>
+			<module_no>1</module_no>
+			<Topic>top="Models of computation. The stored program model. 
+				Mathematical preliminaries 
+				Computer Organization and Basic Principles of Operation 
+				A functional model of computation 
+				The primitive expressions 
+				Function parameter substitution and variable binding 
+				Definition of functions using case analysis" lec="5"</Topic>
+			<No_of_hours>4</No_of_hours>
+			<module_no>2</module_no>
+			<Topic>Functions as inductively defined computational processes
+				Recursive processes
+				Analysis of correctness and efficiency
+				Tail-recursion and iterative processes
+				Correctness of an iterative process
+				Examples of iterative processes</Topic>
+			<No_of_hours>6</No_of_hours>
+			<module_no>3</module_no>
+			<Topic>Analysis of correctness and efficiency
+Correctness
+Efficiency
+Asymptotic analysis and Orders of growth
+More examples of recursive algorithms
+</Topic>
+			<No_of_hours>5</No_of_hours>
+			<module_no>4</module_no>
+			<Topic>Linear Data Structures:
+Lists, Arrays, Strings      
+Sequence Operations
+Stacks and queues
+Searching &amp; Sorting
+Hashes &amp;  Advanced Data Structures
+</Topic>
+			<No_of_hours>5</No_of_hours>
+			<module_no>5</module_no>
+			<Topic>Programming Language</Topic>
+			<No_of_hours>8</No_of_hours>
+			<module_no>6</module_no>
+			<Topic>Executable specifications and rapid-prototyping
+Examples of step-wise refinement
+Identifying and exploiting inherent concurrency. Concurrency and Multithreaded computations
+</Topic>
+			<No_of_hours>4</No_of_hours>
+			<module_no>7</module_no>
+			<Topic>Introduction to numerical computing</Topic>
+			<No_of_hours>3</No_of_hours>
+			<module_no>8</module_no>
+			<Topic>Procedural abstraction using higher order functions. Example of large size problem solving using procedural abstraction and step wise refinement. Examples to be drawn from graphics, games, encryption, web applications, etc.	</Topic>
+			<No_of_hours>7</No_of_hours>
+			<tot_lec_hr>42</tot_lec_hr>
+		</lecture_outline>
+		<tutorial_activities>
+
+		</tutorial_activities>
+		<practical_activities>
+			<module_no3>1</module_no3>
+			<description3>Multiple Programming Assignments in a modern high level programming language such as Python, ML, OCAML, C, C++ of varying difficulty </description3>
+			<No_of_hours3>28</No_of_hours3>
+			<tot_prac_hr>28</tot_prac_hr>
+		</practical_activities>
+		<selflearning_activities></selflearning_activities>
+		<reference>1.	Structure and Interpretation of Computer Programs by Harold Abelson and Gerald Sussman with Julie Sussman, MIT Press, 1985.
+2.	How to solve it by Computer by R. J. Dromey, Prentice-Hall India EEE Series.
+3.	Subashish Banerjee, Lecture Notes in Computer Science, 2011</reference>
+		<resources>
+			<software>Python, OCAML , C++ development environments </software>
+			<hardware>Computer Terminal for all the students</hardware>
+			<lab>First Year Teaching Labs in New Lecture Complex</lab>
+			<classroom>Data Projector</classroom>
+		</resources>
+		<design_content>
+			<design_prob>20%</design_prob>
+			<project_type>20%</project_type>
+			<others2>60%</others2>
+		</design_content>
+	</course>
+</CSITcourses>
