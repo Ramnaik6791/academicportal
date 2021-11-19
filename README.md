@@ -27,11 +27,11 @@ Django-import-export 2.6.0
 ## Commands:
 **pip install mysqlclient**
 
-python manage.py migrate
--> migrate executes those SQL commands in the database file. So after executing migrate all the tables of your installed apps are created in your database file.
+**python manage.py migrate**
+> migrate executes those SQL commands in the database file. So after executing migrate all the tables of your installed apps are created in your database file.
 
- python manage.py makemigrations
--> makemigrations basically generates the SQL commands for preinstalled apps (which can be viewed in installed apps in settings.py) and your newly created apps' model which you add in installed apps. It does not execute those commands in your database file. So tables are not created after makemigrations
+**python manage.py makemigrations**
+> makemigrations basically generates the SQL commands for preinstalled apps (which can be viewed in installed apps in settings.py) and your newly created apps' model which you add in installed apps. It does not execute those commands in your database file. So tables are not created after makemigrations
 
 ## Description:
 
