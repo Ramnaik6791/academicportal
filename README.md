@@ -25,7 +25,7 @@ Mysql-connector-python 8.026
 Django-import-export 2.6.0
 
 ## Commands:
-pip install mysqlclient
+**pip install mysqlclient**
 
 python manage.py migrate
 -> migrate executes those SQL commands in the database file. So after executing migrate all the tables of your installed apps are created in your database file.
