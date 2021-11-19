@@ -25,6 +25,7 @@
 - Django-import-export 2.6.0
 
 ## Commands:
+**pip install django-import-export**
 **pip install mysqlclient**
 
 **python manage.py migrate**
