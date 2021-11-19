@@ -24,3 +24,7 @@ Mysql-connector-python 8.026
 
 Django-import-export 2.6.0
 
+We have used Pycharm for this project.We have installed the above libraries to run the code.In the code we have imported the required libraries.  For the database connection we have installed a Mysql workbench and imported the datasets there. And then we have given the credentials to access the server in the manage.py file. And by using the Mysql connector package we are able to make a connection with the database.
+
+
+
