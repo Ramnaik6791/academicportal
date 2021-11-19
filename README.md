@@ -3,10 +3,10 @@
 ## Libraries required:
 
 - django-admin --version
-* 3.2.7
+> 3.2.7
 
 - python --version
-* Python 3.9.7
+> Python 3.9.7
 
 - Pandas 1.3.3
 
