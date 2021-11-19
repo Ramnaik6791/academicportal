@@ -2,17 +2,17 @@
 
 ## Libraries required:
 
-django-admin --version
+- django-admin --version
 3.2.7
 
-python --version
+- python --version
 Python 3.9.7
 
-Pandas 1.3.3
+- Pandas 1.3.3
 
-Mysqlclient 2.0.3
+- Mysqlclient 2.0.3
 
-Numpy 1.21.2
+- Numpy 1.21.2
 
 Pip 21.2.4
 
