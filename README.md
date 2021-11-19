@@ -1,6 +1,6 @@
 # academicportal
 
-Libraries required:
+#Libraries required:
 
 django-admin --version
 3.2.7
